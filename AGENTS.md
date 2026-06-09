@@ -16,7 +16,7 @@ This repository contains the **Cloud Developer Fundamentals** learning path. The
 - **Show tradeoffs, not prescriptions.** Every architectural decision involves tradeoffs. Present the options, explain the tradeoffs, and let the learner decide based on their constraints. "VMs give you full OS control but require patching and scaling management. Serverless containers remove operational burden but limit customization."
 - **Reference all three major providers.** When naming a service, include AWS, Azure, and GCP equivalents. Use comparison tables when multiple services serve the same purpose.
 - **Use Mermaid diagrams.** Architecture concepts benefit from visual representation. Use Mermaid flowcharts, sequence diagrams, and architecture diagrams to illustrate relationships and decision flows.
-- **Mark difficulty levels.** Tag content with `[Entry]`, `[Mid]`, or `[Senior]` to help learners gauge complexity and sequence their learning.
+- **Use progressive depth.** Start with the concept, then add implementation details. Learners naturally sequence from basic to advanced.
 - **Ground concepts in real-world scenarios.** Explain not just what something is, but when and why you would use it. "Use a cache when the same query runs dozens of times per second and the underlying data changes infrequently."
 - **Encourage Well-Architected thinking.** Every design discussion should touch on reliability, security, performance, cost, and sustainability. These are not afterthoughts.
 

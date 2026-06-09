@@ -117,7 +117,7 @@ You manage everything at your layer and above. The provider manages everything b
 
 ---
 
-## 3. Compute Models `[Entry]` `[Mid]`
+## 3. Compute Models
 
 Choosing the right compute model is the first architectural decision you make for any workload. Each model trades off control for operational simplicity.
 
@@ -167,7 +167,7 @@ flowchart TD
 
 ---
 
-## 4. Storage & Databases `[Mid]`
+## 4. Storage & Databases
 
 Storage is not one thing. The access pattern of your data determines the right storage choice. Optimizing for the wrong pattern leads to poor performance, high costs, or both.
 
@@ -203,7 +203,7 @@ Storage is not one thing. The access pattern of your data determines the right s
 
 ---
 
-## 5. Networking `[Mid]`
+## 5. Networking
 
 Networking is the backbone of every cloud architecture. Every service communicates over networks you configure, secure, and monitor. Understanding virtual networking is non-negotiable.
 
@@ -280,7 +280,7 @@ graph TB
 
 ---
 
-## 6. Security & IAM `[Mid]` `[Senior]`
+## 6. Security & IAM
 
 Security in the cloud is not a feature you add later. It is a set of practices you build into every architectural decision from day one.
 
@@ -334,7 +334,7 @@ Cloud providers maintain certifications for their services, but compliance is a 
 
 ---
 
-## 7. Infrastructure as Code `[Senior]`
+## 7. Infrastructure as Code
 
 Infrastructure as Code (IaC) means defining your entire cloud infrastructure in version-controlled configuration files rather than clicking through web consoles or running one-off CLI commands. Every load balancer, database, network rule, and IAM policy is declared in code. Changes go through code review. Rollbacks are git reverts.
 
@@ -368,7 +368,7 @@ Terraform is the de facto standard for IaC in 2026 for three reasons:
 
 ---
 
-## 8. Cost & Well-Architected `[Senior]`
+## 8. Cost & Well-Architected
 
 Cloud cost management is not a financial exercise delegated to the finance team. It is an engineering discipline. The architectural decisions you make directly determine the cost profile of your system.
 
